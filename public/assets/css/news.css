@@ -1,0 +1,349 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+	width: 93.75%;
+	margin: auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.text36 {
+	font-size: 36px;
+}
+
+.text20 {
+	font-size: 20px;
+}
+
+.text18 {
+	font-size: 18px;
+}
+
+.text14 {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.white {
+	color: #ffffff;
+}
+.green {
+	color: #81b300;
+}
+
+.container {
+	width: 1360px;
+	/*height: auto;*/
+}
+
+#top-decor {
+	width: 100%;
+	background-color: #81b300;
+	height: 10px;
+}
+
+#header {
+	width: 100%;
+}
+
+#logo {
+	width: 30%;
+	padding-top: 30px; 
+}
+
+#social-log {
+	width: 26.25%;
+	padding-bottom: 36px;
+}
+
+#social {
+	width: 100%;
+	display: block;
+	background-color: #81b300;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 4px 0px 10px 26px;
+}
+
+#social a {
+	background-color: #000000;
+	display: inline-block;
+	border-radius: 50%;
+	padding: 10px;
+	font-size: 20px;
+}
+
+#social a.left {
+	margin-right: 22px;
+}
+
+#social .linkedIn:hover {
+	background-color: #2797cf;
+}
+
+#social .twitter:hover {
+	background-color: #36b6d9;
+}
+
+#social .pinterest:hover {
+	background-color: #bd081b;
+}
+
+#social .googleplus:hover {
+	background-color: #db4437;
+}
+
+#social .rss:hover {
+	background-color: #f99b39;
+}
+
+#log {
+	width: 100%;
+	margin-top: 38px;
+	margin-left: 16px;
+}
+
+#log a {
+	display: inline-block;
+	/*border-right: 1px solid #81b300;*/
+	font-size: 14px;
+	padding-right: 3px;
+}
+
+#menu {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	background-color: #81b300;
+}
+ #menu a {
+ 	display: inline-block;
+ 	margin-right: 20px;
+ 	line-height: 26px;
+}
+
+ #menu a:hover {
+ 	color: #000000;
+ }
+
+#menu button.white {
+	line-height: 26px;
+	background-color: #81b300;
+	border: none;
+	cursor: pointer;
+	position: relative;
+}
+
+#menu .btnDrop ul {
+	display: none;
+}
+
+#menu .btnDrop:hover ul {
+	width: 200%;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #81b300;
+    z-index: 2;
+}
+
+#menu .btnDrop ul li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#btnSearch {
+	line-height: 26px;
+	background-color: #ffffff;
+	border: none;
+	cursor: pointer;
+
+}
+
+#search input {
+	line-height: 26px;
+	border: none;
+    padding-left: 5px;
+    border-right: 1px solid grey;
+}
+
+#slideshow {
+	width: 100%;
+	padding-top: 50px;
+	background-color: #f2f2f2;
+	padding-bottom: 30px;
+}
+
+.div-dots {
+	text-align:center;
+}
+
+#topic {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#topic .four-col {
+	text-align: center;
+}
+
+.four-col {
+	width: 23%;
+}
+
+.four-col.left {
+	margin-right: 2.5%;
+}
+
+.four-col h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.four-col i {
+	font-size: 70px;
+}
+
+#quick-news {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.four-col h3 {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+#quick-news img {
+	width: 100%;
+}
+
+.details, .readmore {
+	margin-top: 10px;
+}
+
+#footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #3b3b3b;
+	color: #999999;
+}
+
+#footer .footer-title {
+	margin-bottom: 40px;
+}
+
+.footer-desc {
+	margin-bottom: 20px;
+}
+
+#footer .quick-links a {
+	display: block;
+	border-bottom: 1px solid #999999;
+	color: #999999;
+	padding-bottom: 5px;
+	padding-top: 15px;
+}
+
+#footer input {
+	width: 100%;
+	background-color: #1f1f1f;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	border: none;
+	line-height: 30px;
+	border-radius: 6px;
+}
+
+#footer button {
+	border: none;
+	background-color: #1f1f1f;
+	border-radius: 5px;
+	padding: 8px;
+	cursor: pointer;
+}
+
+#copyright {
+	background-color: #2e2e2e;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #999999;
+}
+
+/*----------------------------------slideshow---------------------------------------------------------------*/
+
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+#slideshow img {
+	width: 100%;
+}
